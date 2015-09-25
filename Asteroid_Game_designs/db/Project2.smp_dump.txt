@@ -1,0 +1,6 @@
+
+State Machine - |Project2|space_ship:inst|arrow_control:inst6|state
+Name state.wait_ready state.read_data state.read_low 
+state.read_low 0 0 0 
+state.read_data 0 1 1 
+state.wait_ready 1 0 1 

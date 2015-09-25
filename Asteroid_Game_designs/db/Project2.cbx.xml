@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Project2">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Project2|asteriods:inst6|a7_on:inst13|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_qgj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Project2|asteriods:inst6|asteriod:inst2|small_astro:small_astro_inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_hd04.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Project2|asteriods:inst6|med_asteriod:inst3|med_astro:med_astro_inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_mfr3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Project2|asteriods:inst6|random_astro:inst14|pos_counter:inst12|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_08j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Project2|asteriods:inst6|a10_on:inst18|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_qgj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Project2|asteriods:inst6|random_astro:inst14|y_vel_add:inst8|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_sth.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Project2|asteriods:inst6|a3_on:inst133215|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_qgj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Project2|asteriods:inst6|a5_on:inst1525|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_qgj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Project2|asteriods:inst6|asteriod:inst10|small_astro:small_astro_inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_hd04.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Project2|asteriods:inst6|asteriod:inst1|small_astro:small_astro_inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_hd04.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Project2|game_clock:inst21|num_to_digits:inst6|lpm_divide:Mod3" CBX_FILE_NAME="lpm_divide_kcm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Project2|asteriods:inst6|med_asteriod:inst11|med_astro:med_astro_inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_mfr3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Project2|asteriods:inst6|random_astro:inst14|y_vel:inst13|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_s4j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Project2|game_clock:inst21|digit_display:inst11|digits_rom:digits_rom_inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_15r3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Project2|game_clock:inst21|game_counter:inst|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_t8i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Project2|game_clock:inst21|num_to_digits:inst6|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_0jm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Project2|asteriods:inst6|a9_on:inst17|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_qgj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Project2|asteriods:inst6|asteriod:inst|small_astro:small_astro_inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_hd04.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Project2|game_clock:inst21|digit_display:inst10|digits_rom:digits_rom_inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_15r3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Project2|game_clock:inst21|num_to_digits:inst6|lpm_divide:Mod2" CBX_FILE_NAME="lpm_divide_kcm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Project2|asteriods:inst6|med_asteriod:inst9|med_astro:med_astro_inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_mfr3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Project2|asteriods:inst6|random_astro:inst14|vel_add:inst7|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_qnh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Project2|asteriods:inst6|a4_on:inst14115|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_qgj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Project2|asteriods:inst6|asteriod:inst7|small_astro:small_astro_inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_hd04.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Project2|asteriods:inst6|med_asteriod:inst8|med_astro:med_astro_inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_mfr3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Project2|game_clock:inst21|digit_display:inst8|digits_rom:digits_rom_inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_15r3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Project2|asteriods:inst6|random_astro:inst14|x_vel:inst3|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_76j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Project2|asteriods:inst6|a11_on:inst19|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_qgj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Project2|asteriods:inst6|med_asteriod:astro1|med_astro:med_astro_inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_mfr3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Project2|asteriods:inst6|a2_on:inst11215|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_qgj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Project2|asteriods:inst6|med_asteriod:inst4|med_astro:med_astro_inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_mfr3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Project2|asteriods:inst6|a12_on:inst20|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_qgj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Project2|asteriods:inst6|a6_on:inst16|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_qgj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Project2|space_ship:inst|ship:inst|ship_graphic:ship_graphic_inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_9hs3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Project2|asteriods:inst6|a8_on:inst15|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_qgj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Project2|asteriods:inst6|asteriod:inst5|small_astro:small_astro_inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_hd04.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Project2|game_clock:inst21|digit_display:inst9|digits_rom:digits_rom_inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_15r3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Project2|game_clock:inst21|num_to_digits:inst6|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_kcm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Project2|game_clock:inst21|num_to_digits:inst6|lpm_divide:Mod1" CBX_FILE_NAME="lpm_divide_kcm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Project2|game_clock:inst21|num_to_digits:inst6|lpm_divide:Div1" CBX_FILE_NAME="lpm_divide_3jm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Project2|game_clock:inst21|num_to_digits:inst6|lpm_divide:Div2" CBX_FILE_NAME="lpm_divide_dkm.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

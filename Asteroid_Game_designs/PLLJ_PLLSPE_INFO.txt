@@ -1,0 +1,5 @@
+PLL_Name	VGA_SYNC:1|video_PLL:video_PLL_inst|altpll:altpll_component|pll
+PLLJITTER	30
+PLLSPEmax	84
+PLLSPEmin	-53
+

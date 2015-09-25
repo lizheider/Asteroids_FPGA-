@@ -1,0 +1,89 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.all;
+USE  IEEE.STD_LOGIC_ARITH.all;
+USE  IEEE.STD_LOGIC_UNSIGNED.all;
+
+ENTITY ship2 IS
+
+   PORT(pixel_row, pixel_column	: IN std_logic_vector(9 DOWNTO 0);
+		  u,l,r,d						: IN std_logic; 
+        Vert_sync						: IN std_logic;
+		  en								: IN std_logic;
+		  reset							: IN std_logic;
+		  clk								: IN std_logic;
+		  
+		  white							: OUT std_logic;
+		  X								: OUT std_logic_vector(10 DOWNTO 0);
+		  Y								: OUT std_logic_vector(10 DOWNTO 0);
+		  W								: OUT std_logic_vector(10 DOWNTO 0);
+		  H								: OUT std_logic_vector(10 DOWNTO 0));
+	
+END ship2;
+
+architecture behavior of ship2 is
+
+			-- Video Display Signals   
+SIGNAL Ball_on, Direction					: std_logic;
+SIGNAL Size 									: std_logic_vector(10 DOWNTO 0);  
+SIGNAL Ball_Y_motion, Ball_X_motion 	: std_logic_vector(10 DOWNTO 0);
+SIGNAL Ball_Y_pos 							: std_logic_vector(10 DOWNTO 0) := CONV_STD_LOGIC_VECTOR(410,11);
+SIGNAL Ball_X_pos								: std_logic_vector(10 DOWNTO 0) := CONV_STD_LOGIC_VECTOR(320,11);
+SIGNAL SPEED 									: std_logic_vector(10 DOWNTO 0) := CONV_STD_LOGIC_VECTOR(33,11);
+SIGNAL COUNT									: std_logic_vector(10 DOWNTO 0);
+BEGIN           
+Size <= CONV_STD_LOGIC_VECTOR(8,11);
+
+-- White Ship
+white <= ball_on;
+
+-- Assign outputs for collision dector
+X <= Ball_X_pos;
+Y <= Ball_Y_pos;
+W <= Size;
+H <= Size;
+
+RGB_Display: Process (pixel_column, pixel_row) --(reset, Ball_X_pos, Ball_Y_pos, pixel_column, pixel_row, Size)
+BEGIN
+ -- Set Ball_on ='1' to display ball
+ IF (Ball_X_pos <= pixel_column + Size) AND
+ 	 -- compare positive numbers only
+ 	(Ball_X_pos + Size >= pixel_column) AND
+ 	(Ball_Y_pos <= pixel_row + Size) AND
+ 	(Ball_Y_pos + Size >= pixel_row ) THEN
+		Ball_on <= '1';
+ 	ELSE
+ 		Ball_on <= '0';
+END IF;
+END process RGB_Display;
+
+
+Move_Ball: Process (clk)
+BEGIN 
+	IF (reset = '0') THEN
+		Ball_Y_pos <= CONV_STD_LOGIC_VECTOR(410,11);
+		Ball_X_pos <= CONV_STD_LOGIC_VECTOR(320,11);
+	-- Move ball once every vertical sync
+	ELSIF (clk'event) and (clk = '1') THEN
+		IF (COUNT = 0) or (COUNT > SPEED) THEN 
+			COUNT <= SPEED;
+			-- Compute next ball Y position
+			IF (u = '1') and (Ball_Y_pos > Size) THEN 
+				Ball_Y_pos <= Ball_Y_pos - 1;
+			END IF;
+			IF (d = '1') and (('0' & Ball_Y_pos) < 480 - Size) THEN
+				Ball_Y_pos <= Ball_Y_pos + 1;
+			END IF;
+			IF (r='1') and (('0' & Ball_X_pos) < 640 - Size) THEN 
+				Ball_X_pos <= Ball_X_pos + 1;
+			END IF;
+			IF (l='1') and (Ball_X_pos > Size) THEN
+				Ball_X_pos <= Ball_X_pos - 1;
+			END IF;
+		ELSE
+			COUNT <= COUNT - 1;
+		END IF;
+	END IF;
+END process Move_Ball;
+
+END behavior;
+

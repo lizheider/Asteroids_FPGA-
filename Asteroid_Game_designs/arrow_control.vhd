@@ -1,0 +1,110 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.all;
+USE  IEEE.STD_LOGIC_ARITH.all;
+USE  IEEE.STD_LOGIC_UNSIGNED.all;
+-- buffer for incoming keyboard keycode data
+ENTITY arrow_control IS	
+	PORT(scan_code								: IN	STD_LOGIC_VECTOR(7 DOWNTO 0);	--key code from keyboard block
+		 scan_ready, clock_50Mhz, reset	: IN std_logic; 							
+		 read 									: OUT std_logic;
+		 u, l, r, d								: OUT std_logic);
+
+END arrow_control;
+
+ARCHITECTURE a OF arrow_control IS
+
+TYPE STATE_TYPE IS (wait_ready, read_data, read_low);
+SIGNAL state: STATE_TYPE;
+SIGNAL storage :STD_LOGIC_VECTOR(15 DOWNTO 0);
+SIGNAL u_make	:STD_LOGIC;
+SIGNAL l_make	:STD_LOGIC;
+SIGNAL r_make  :STD_LOGIC;
+SIGNAL d_make  :STD_LOGIC;
+BEGIN
+	PROCESS (scan_ready, reset, clock_50Mhz)
+		BEGIN
+		IF reset <= '0' THEN state <= read_low;
+			storage <= X"0000";  -- reset storage to 3 bytes of zeros
+		ELSIF (clock_50Mhz'EVENT) AND clock_50Mhz='1' THEN
+			CASE state IS 
+				WHEN read_low =>            -- temporary state
+					read <= '0';             -- reset the "read" pulse output back to low
+					state <= wait_ready;
+				WHEN wait_ready =>          -- waiting for new incoming data
+					IF scan_ready = '1' THEN -- if a new keycode has come in
+						read <= '1';          -- set the "read" output to pulse high
+						state <= read_data;   -- for 2 clock pulses
+					ELSE
+						 state <= wait_ready; -- otherwise keep waiting
+					END IF;
+				WHEN read_data =>           -- temporary state: add new byte to output buffer
+					-- shift left the first bytes, concatenate the new scan code as LSB
+					storage <= storage(7 DOWNTO 0) & Scan_Code;
+					state <= read_low;       -- "read" output is still high during this state
+			END CASE;
+		END IF;
+	  END PROCESS;
+
+	--key make 	break
+	--'U Arrow' E0 75		E0 F0 75
+	--'L Arrow' E0 6B		E0 F0 6B
+	--'R Arrow' E0 74		E0 F0 74
+	--'D Arrow' E0 72		E0	F0 72
+	PROCESS (clock_50Mhz, reset)
+	BEGIN
+	IF (reset = '0') THEN			--reset all make and output variables
+			u_make <= '0';
+			l_make <= '0';
+			r_make <= '0';
+			d_make <= '0';
+			u <= '0';
+			l <= '0';
+			r <= '0';
+			d <= '0';
+	ELSIF (clock_50Mhz'EVENT) AND clock_50Mhz='1' THEN	--syncronous
+		IF (storage(15 DOWNTO 8) /= X"F0") THEN			--make sure it is not a break code
+			CASE storage(7 DOWNTO 0) IS						--check which make code it was
+				WHEN X"75" =>										--"UP ARROW"
+					IF (u_make = '0') THEN 
+						u_make <= '1';								--set u_make
+						u <= '1';									
+					END IF;
+				WHEN X"6B" =>										--"LEFT ARROW"
+					IF (l_make = '0') THEN 
+						l_make <= '1';								--set l_make
+						l <= '1';									
+					END IF;
+				WHEN X"74" =>										--"RIGHT ARROW"
+					IF (r_make = '0') THEN 
+						r_make <= '1';								--set r_make
+						r <= '1';							
+					END IF;
+				WHEN X"72" =>										--"DOWN ARROW"
+					IF (d_make = '0') THEN 
+						d_make <= '1';								--set blue_make
+						d <= '1';								
+					END IF;	
+				WHEN OTHERS =>
+					null;
+			END CASE;
+		ELSE
+			CASE storage(7 DOWNTO 0) IS
+				WHEN X"75" =>
+					u_make <= '0';							--clear u_make
+					u <= '0';
+				WHEN X"6B" =>
+					l_make <= '0';							--clear l_make
+					l <= '0';
+				WHEN X"74" =>
+					r_make <= '0';							--clear r_make
+					r <= '0';
+				WHEN X"72" =>
+					d_make <= '0';							--clear d_make
+					d <= '0';
+				WHEN OTHERS =>
+					null;
+			END CASE;
+		END IF;
+	END IF;
+	END PROCESS;
+END a;

@@ -1,0 +1,1133 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup '1|video_PLL_inst|altpll_component|pll|clk[0]'
+Slack : -35.958
+TNS   : -462.083
+
+Type  : Slow 1200mV 85C Model Setup 'VGA_SYNC:1|vert_sync_out'
+Slack : -6.739
+TNS   : -1712.629
+
+Type  : Slow 1200mV 85C Model Setup 'asteriods:inst6|asteriod:inst|off_edge'
+Slack : -3.775
+TNS   : -43.419
+
+Type  : Slow 1200mV 85C Model Setup 'asteriods:inst6|asteriod:inst10|off_edge'
+Slack : -3.261
+TNS   : -38.005
+
+Type  : Slow 1200mV 85C Model Setup 'asteriods:inst6|asteriod:inst2|off_edge'
+Slack : -2.986
+TNS   : -65.899
+
+Type  : Slow 1200mV 85C Model Setup 'asteriods:inst6|med_asteriod:inst11|off_edge'
+Slack : -2.805
+TNS   : -66.390
+
+Type  : Slow 1200mV 85C Model Setup 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_100KHz'
+Slack : -2.774
+TNS   : -30.514
+
+Type  : Slow 1200mV 85C Model Setup 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_1KHz'
+Slack : -2.768
+TNS   : -30.448
+
+Type  : Slow 1200mV 85C Model Setup 'asteriods:inst6|med_asteriod:astro1|off_edge'
+Slack : -2.757
+TNS   : -59.739
+
+Type  : Slow 1200mV 85C Model Setup 'asteriods:inst6|med_asteriod:inst4|off_edge'
+Slack : -2.690
+TNS   : -52.999
+
+Type  : Slow 1200mV 85C Model Setup 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_10KHz'
+Slack : -2.617
+TNS   : -28.787
+
+Type  : Slow 1200mV 85C Model Setup 'asteriods:inst6|med_asteriod:inst8|off_edge'
+Slack : -2.556
+TNS   : -54.403
+
+Type  : Slow 1200mV 85C Model Setup 'asteriods:inst6|med_asteriod:inst3|off_edge'
+Slack : -2.515
+TNS   : -55.437
+
+Type  : Slow 1200mV 85C Model Setup 'asteriods:inst6|med_asteriod:inst9|off_edge'
+Slack : -2.515
+TNS   : -43.908
+
+Type  : Slow 1200mV 85C Model Setup 'asteriods:inst6|asteriod:inst7|off_edge'
+Slack : -2.472
+TNS   : -47.457
+
+Type  : Slow 1200mV 85C Model Setup 'space_ship:inst|keyboard:inst5|keyboard_clk_filtered'
+Slack : -2.068
+TNS   : -32.422
+
+Type  : Slow 1200mV 85C Model Setup 'asteriods:inst6|asteriod:inst1|off_edge'
+Slack : -1.932
+TNS   : -41.474
+
+Type  : Slow 1200mV 85C Model Setup 'asteriods:inst6|asteriod:inst5|off_edge'
+Slack : -1.862
+TNS   : -38.002
+
+Type  : Slow 1200mV 85C Model Setup 'game_clock:inst21|clk_div:inst3|clock_1Hz'
+Slack : -1.507
+TNS   : -15.006
+
+Type  : Slow 1200mV 85C Model Setup 'Clock_50MHz'
+Slack : -0.856
+TNS   : -4.637
+
+Type  : Slow 1200mV 85C Model Setup 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_10Khz_reg'
+Slack : -0.247
+TNS   : -0.526
+
+Type  : Slow 1200mV 85C Model Setup 'game_clock:inst21|clk_div:inst3|clock_100Khz_reg'
+Slack : -0.244
+TNS   : -0.526
+
+Type  : Slow 1200mV 85C Model Setup 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_1Mhz_reg'
+Slack : -0.239
+TNS   : -0.520
+
+Type  : Slow 1200mV 85C Model Setup 'game_clock:inst21|clk_div:inst3|clock_10Hz_reg'
+Slack : -0.183
+TNS   : -0.471
+
+Type  : Slow 1200mV 85C Model Setup 'game_clock:inst21|clk_div:inst3|clock_10Khz_reg'
+Slack : -0.182
+TNS   : -0.415
+
+Type  : Slow 1200mV 85C Model Setup 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_100Khz_reg'
+Slack : -0.181
+TNS   : -0.417
+
+Type  : Slow 1200mV 85C Model Setup 'game_clock:inst21|clk_div:inst3|clock_1Khz_reg'
+Slack : -0.172
+TNS   : -0.397
+
+Type  : Slow 1200mV 85C Model Setup 'game_clock:inst21|clk_div:inst3|clock_1Mhz_reg'
+Slack : -0.172
+TNS   : -0.396
+
+Type  : Slow 1200mV 85C Model Setup 'game_clock:inst21|clk_div:inst3|clock_100hz_reg'
+Slack : -0.172
+TNS   : -0.395
+
+Type  : Slow 1200mV 85C Model Hold 'asteriods:inst6|asteriod:inst10|off_edge'
+Slack : -0.280
+TNS   : -2.263
+
+Type  : Slow 1200mV 85C Model Hold 'asteriods:inst6|asteriod:inst|off_edge'
+Slack : -0.165
+TNS   : -0.336
+
+Type  : Slow 1200mV 85C Model Hold 'asteriods:inst6|med_asteriod:inst9|off_edge'
+Slack : -0.134
+TNS   : -0.727
+
+Type  : Slow 1200mV 85C Model Hold 'asteriods:inst6|asteriod:inst7|off_edge'
+Slack : -0.083
+TNS   : -0.218
+
+Type  : Slow 1200mV 85C Model Hold 'asteriods:inst6|med_asteriod:inst4|off_edge'
+Slack : -0.074
+TNS   : -0.074
+
+Type  : Slow 1200mV 85C Model Hold 'asteriods:inst6|asteriod:inst1|off_edge'
+Slack : -0.049
+TNS   : -0.049
+
+Type  : Slow 1200mV 85C Model Hold 'asteriods:inst6|asteriod:inst5|off_edge'
+Slack : -0.009
+TNS   : -0.017
+
+Type  : Slow 1200mV 85C Model Hold 'asteriods:inst6|med_asteriod:astro1|off_edge'
+Slack : 0.168
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'asteriods:inst6|med_asteriod:inst8|off_edge'
+Slack : 0.173
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'asteriods:inst6|asteriod:inst2|off_edge'
+Slack : 0.174
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'asteriods:inst6|med_asteriod:inst3|off_edge'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold '1|video_PLL_inst|altpll_component|pll|clk[0]'
+Slack : 0.402
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Clock_50MHz'
+Slack : 0.402
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'VGA_SYNC:1|vert_sync_out'
+Slack : 0.402
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'space_ship:inst|keyboard:inst5|keyboard_clk_filtered'
+Slack : 0.404
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_100Khz_reg'
+Slack : 0.440
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_10Khz_reg'
+Slack : 0.440
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_1Mhz_reg'
+Slack : 0.440
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'game_clock:inst21|clk_div:inst3|clock_100Khz_reg'
+Slack : 0.440
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'game_clock:inst21|clk_div:inst3|clock_100hz_reg'
+Slack : 0.440
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'game_clock:inst21|clk_div:inst3|clock_10Hz_reg'
+Slack : 0.440
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'game_clock:inst21|clk_div:inst3|clock_10Khz_reg'
+Slack : 0.440
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'game_clock:inst21|clk_div:inst3|clock_1Khz_reg'
+Slack : 0.440
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'game_clock:inst21|clk_div:inst3|clock_1Mhz_reg'
+Slack : 0.440
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'asteriods:inst6|med_asteriod:inst11|off_edge'
+Slack : 0.574
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'game_clock:inst21|clk_div:inst3|clock_1Hz'
+Slack : 0.655
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_10KHz'
+Slack : 0.658
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_1KHz'
+Slack : 0.660
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_100KHz'
+Slack : 0.677
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'VGA_SYNC:1|vert_sync_out'
+Slack : -3.526
+TNS   : -855.520
+
+Type  : Slow 1200mV 85C Model Recovery 'space_ship:inst|keyboard:inst5|ready_set'
+Slack : -2.826
+TNS   : -2.826
+
+Type  : Slow 1200mV 85C Model Recovery 'game_clock:inst21|clk_div:inst3|clock_1Hz'
+Slack : -1.519
+TNS   : -21.266
+
+Type  : Slow 1200mV 85C Model Removal 'VGA_SYNC:1|vert_sync_out'
+Slack : 1.115
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'game_clock:inst21|clk_div:inst3|clock_1Hz'
+Slack : 1.312
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'space_ship:inst|keyboard:inst5|ready_set'
+Slack : 3.326
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'VGA_SYNC:1|vert_sync_out'
+Slack : -1.285
+TNS   : -380.360
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'space_ship:inst|keyboard:inst5|keyboard_clk_filtered'
+Slack : -1.285
+TNS   : -29.555
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'game_clock:inst21|clk_div:inst3|clock_1Hz'
+Slack : -1.285
+TNS   : -17.990
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_100KHz'
+Slack : -1.285
+TNS   : -14.135
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_10KHz'
+Slack : -1.285
+TNS   : -14.135
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_1KHz'
+Slack : -1.285
+TNS   : -14.135
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_100Khz_reg'
+Slack : -1.285
+TNS   : -5.140
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_10Khz_reg'
+Slack : -1.285
+TNS   : -5.140
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_1Mhz_reg'
+Slack : -1.285
+TNS   : -5.140
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'game_clock:inst21|clk_div:inst3|clock_100Khz_reg'
+Slack : -1.285
+TNS   : -5.140
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'game_clock:inst21|clk_div:inst3|clock_100hz_reg'
+Slack : -1.285
+TNS   : -5.140
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'game_clock:inst21|clk_div:inst3|clock_10Hz_reg'
+Slack : -1.285
+TNS   : -5.140
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'game_clock:inst21|clk_div:inst3|clock_10Khz_reg'
+Slack : -1.285
+TNS   : -5.140
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'game_clock:inst21|clk_div:inst3|clock_1Khz_reg'
+Slack : -1.285
+TNS   : -5.140
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'game_clock:inst21|clk_div:inst3|clock_1Mhz_reg'
+Slack : -1.285
+TNS   : -5.140
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'space_ship:inst|keyboard:inst5|ready_set'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'asteriods:inst6|med_asteriod:inst4|off_edge'
+Slack : 0.349
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'asteriods:inst6|asteriod:inst7|off_edge'
+Slack : 0.350
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'asteriods:inst6|asteriod:inst|off_edge'
+Slack : 0.373
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'asteriods:inst6|asteriod:inst10|off_edge'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'asteriods:inst6|med_asteriod:inst9|off_edge'
+Slack : 0.409
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'asteriods:inst6|med_asteriod:inst3|off_edge'
+Slack : 0.422
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'asteriods:inst6|asteriod:inst1|off_edge'
+Slack : 0.424
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'asteriods:inst6|med_asteriod:astro1|off_edge'
+Slack : 0.428
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'asteriods:inst6|med_asteriod:inst11|off_edge'
+Slack : 0.436
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'asteriods:inst6|asteriod:inst5|off_edge'
+Slack : 0.443
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'asteriods:inst6|asteriod:inst2|off_edge'
+Slack : 0.445
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'asteriods:inst6|med_asteriod:inst8|off_edge'
+Slack : 0.450
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Clock_50MHz'
+Slack : 9.751
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width '1|video_PLL_inst|altpll_component|pll|clk[0]'
+Slack : 19.706
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup '1|video_PLL_inst|altpll_component|pll|clk[0]'
+Slack : -32.275
+TNS   : -409.738
+
+Type  : Slow 1200mV 0C Model Setup 'VGA_SYNC:1|vert_sync_out'
+Slack : -6.124
+TNS   : -1542.512
+
+Type  : Slow 1200mV 0C Model Setup 'asteriods:inst6|asteriod:inst|off_edge'
+Slack : -3.468
+TNS   : -39.997
+
+Type  : Slow 1200mV 0C Model Setup 'asteriods:inst6|asteriod:inst10|off_edge'
+Slack : -3.063
+TNS   : -35.448
+
+Type  : Slow 1200mV 0C Model Setup 'asteriods:inst6|asteriod:inst2|off_edge'
+Slack : -2.763
+TNS   : -60.265
+
+Type  : Slow 1200mV 0C Model Setup 'asteriods:inst6|med_asteriod:inst11|off_edge'
+Slack : -2.560
+TNS   : -60.576
+
+Type  : Slow 1200mV 0C Model Setup 'asteriods:inst6|med_asteriod:astro1|off_edge'
+Slack : -2.558
+TNS   : -54.842
+
+Type  : Slow 1200mV 0C Model Setup 'asteriods:inst6|med_asteriod:inst4|off_edge'
+Slack : -2.469
+TNS   : -48.347
+
+Type  : Slow 1200mV 0C Model Setup 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_100KHz'
+Slack : -2.407
+TNS   : -26.477
+
+Type  : Slow 1200mV 0C Model Setup 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_1KHz'
+Slack : -2.402
+TNS   : -26.422
+
+Type  : Slow 1200mV 0C Model Setup 'asteriods:inst6|med_asteriod:inst8|off_edge'
+Slack : -2.360
+TNS   : -50.036
+
+Type  : Slow 1200mV 0C Model Setup 'asteriods:inst6|med_asteriod:inst9|off_edge'
+Slack : -2.309
+TNS   : -40.899
+
+Type  : Slow 1200mV 0C Model Setup 'asteriods:inst6|med_asteriod:inst3|off_edge'
+Slack : -2.298
+TNS   : -51.209
+
+Type  : Slow 1200mV 0C Model Setup 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_10KHz'
+Slack : -2.266
+TNS   : -24.926
+
+Type  : Slow 1200mV 0C Model Setup 'asteriods:inst6|asteriod:inst7|off_edge'
+Slack : -2.264
+TNS   : -43.862
+
+Type  : Slow 1200mV 0C Model Setup 'space_ship:inst|keyboard:inst5|keyboard_clk_filtered'
+Slack : -1.820
+TNS   : -27.713
+
+Type  : Slow 1200mV 0C Model Setup 'asteriods:inst6|asteriod:inst1|off_edge'
+Slack : -1.737
+TNS   : -37.936
+
+Type  : Slow 1200mV 0C Model Setup 'asteriods:inst6|asteriod:inst5|off_edge'
+Slack : -1.676
+TNS   : -35.357
+
+Type  : Slow 1200mV 0C Model Setup 'game_clock:inst21|clk_div:inst3|clock_1Hz'
+Slack : -1.245
+TNS   : -12.001
+
+Type  : Slow 1200mV 0C Model Setup 'Clock_50MHz'
+Slack : -0.662
+TNS   : -2.713
+
+Type  : Slow 1200mV 0C Model Setup 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_10Khz_reg'
+Slack : -0.118
+TNS   : -0.159
+
+Type  : Slow 1200mV 0C Model Setup 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_1Mhz_reg'
+Slack : -0.114
+TNS   : -0.156
+
+Type  : Slow 1200mV 0C Model Setup 'game_clock:inst21|clk_div:inst3|clock_100Khz_reg'
+Slack : -0.114
+TNS   : -0.152
+
+Type  : Slow 1200mV 0C Model Setup 'game_clock:inst21|clk_div:inst3|clock_10Hz_reg'
+Slack : -0.059
+TNS   : -0.113
+
+Type  : Slow 1200mV 0C Model Setup 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_100Khz_reg'
+Slack : -0.058
+TNS   : -0.062
+
+Type  : Slow 1200mV 0C Model Setup 'game_clock:inst21|clk_div:inst3|clock_10Khz_reg'
+Slack : -0.058
+TNS   : -0.059
+
+Type  : Slow 1200mV 0C Model Setup 'game_clock:inst21|clk_div:inst3|clock_100hz_reg'
+Slack : -0.049
+TNS   : -0.049
+
+Type  : Slow 1200mV 0C Model Setup 'game_clock:inst21|clk_div:inst3|clock_1Khz_reg'
+Slack : -0.049
+TNS   : -0.049
+
+Type  : Slow 1200mV 0C Model Setup 'game_clock:inst21|clk_div:inst3|clock_1Mhz_reg'
+Slack : -0.049
+TNS   : -0.049
+
+Type  : Slow 1200mV 0C Model Hold 'asteriods:inst6|asteriod:inst10|off_edge'
+Slack : -0.174
+TNS   : -1.083
+
+Type  : Slow 1200mV 0C Model Hold 'asteriods:inst6|asteriod:inst|off_edge'
+Slack : -0.046
+TNS   : -0.058
+
+Type  : Slow 1200mV 0C Model Hold 'asteriods:inst6|med_asteriod:inst9|off_edge'
+Slack : -0.045
+TNS   : -0.068
+
+Type  : Slow 1200mV 0C Model Hold 'asteriods:inst6|asteriod:inst7|off_edge'
+Slack : -0.002
+TNS   : -0.002
+
+Type  : Slow 1200mV 0C Model Hold 'asteriods:inst6|med_asteriod:inst4|off_edge'
+Slack : 0.032
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'asteriods:inst6|asteriod:inst5|off_edge'
+Slack : 0.076
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'asteriods:inst6|asteriod:inst1|off_edge'
+Slack : 0.082
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'asteriods:inst6|asteriod:inst2|off_edge'
+Slack : 0.244
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'asteriods:inst6|med_asteriod:inst8|off_edge'
+Slack : 0.244
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'asteriods:inst6|med_asteriod:astro1|off_edge'
+Slack : 0.287
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Clock_50MHz'
+Slack : 0.349
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'VGA_SYNC:1|vert_sync_out'
+Slack : 0.353
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold '1|video_PLL_inst|altpll_component|pll|clk[0]'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'space_ship:inst|keyboard:inst5|keyboard_clk_filtered'
+Slack : 0.356
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_100Khz_reg'
+Slack : 0.387
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_10Khz_reg'
+Slack : 0.387
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_1Mhz_reg'
+Slack : 0.387
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'game_clock:inst21|clk_div:inst3|clock_100Khz_reg'
+Slack : 0.387
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'game_clock:inst21|clk_div:inst3|clock_100hz_reg'
+Slack : 0.387
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'game_clock:inst21|clk_div:inst3|clock_10Hz_reg'
+Slack : 0.387
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'game_clock:inst21|clk_div:inst3|clock_10Khz_reg'
+Slack : 0.387
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'game_clock:inst21|clk_div:inst3|clock_1Khz_reg'
+Slack : 0.387
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'game_clock:inst21|clk_div:inst3|clock_1Mhz_reg'
+Slack : 0.387
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'asteriods:inst6|med_asteriod:inst3|off_edge'
+Slack : 0.421
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_10KHz'
+Slack : 0.600
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'game_clock:inst21|clk_div:inst3|clock_1Hz'
+Slack : 0.601
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_1KHz'
+Slack : 0.604
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'asteriods:inst6|med_asteriod:inst11|off_edge'
+Slack : 0.612
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_100KHz'
+Slack : 0.617
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'VGA_SYNC:1|vert_sync_out'
+Slack : -3.237
+TNS   : -781.366
+
+Type  : Slow 1200mV 0C Model Recovery 'space_ship:inst|keyboard:inst5|ready_set'
+Slack : -2.457
+TNS   : -2.457
+
+Type  : Slow 1200mV 0C Model Recovery 'game_clock:inst21|clk_div:inst3|clock_1Hz'
+Slack : -1.468
+TNS   : -20.552
+
+Type  : Slow 1200mV 0C Model Removal 'VGA_SYNC:1|vert_sync_out'
+Slack : 1.026
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'game_clock:inst21|clk_div:inst3|clock_1Hz'
+Slack : 1.335
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'space_ship:inst|keyboard:inst5|ready_set'
+Slack : 3.022
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'VGA_SYNC:1|vert_sync_out'
+Slack : -1.285
+TNS   : -380.360
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'space_ship:inst|keyboard:inst5|keyboard_clk_filtered'
+Slack : -1.285
+TNS   : -29.555
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'game_clock:inst21|clk_div:inst3|clock_1Hz'
+Slack : -1.285
+TNS   : -17.990
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_100KHz'
+Slack : -1.285
+TNS   : -14.135
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_10KHz'
+Slack : -1.285
+TNS   : -14.135
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_1KHz'
+Slack : -1.285
+TNS   : -14.135
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_100Khz_reg'
+Slack : -1.285
+TNS   : -5.140
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_10Khz_reg'
+Slack : -1.285
+TNS   : -5.140
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_1Mhz_reg'
+Slack : -1.285
+TNS   : -5.140
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'game_clock:inst21|clk_div:inst3|clock_100Khz_reg'
+Slack : -1.285
+TNS   : -5.140
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'game_clock:inst21|clk_div:inst3|clock_100hz_reg'
+Slack : -1.285
+TNS   : -5.140
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'game_clock:inst21|clk_div:inst3|clock_10Hz_reg'
+Slack : -1.285
+TNS   : -5.140
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'game_clock:inst21|clk_div:inst3|clock_10Khz_reg'
+Slack : -1.285
+TNS   : -5.140
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'game_clock:inst21|clk_div:inst3|clock_1Khz_reg'
+Slack : -1.285
+TNS   : -5.140
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'game_clock:inst21|clk_div:inst3|clock_1Mhz_reg'
+Slack : -1.285
+TNS   : -5.140
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'space_ship:inst|keyboard:inst5|ready_set'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'asteriods:inst6|asteriod:inst5|off_edge'
+Slack : 0.390
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'asteriods:inst6|med_asteriod:astro1|off_edge'
+Slack : 0.396
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'asteriods:inst6|med_asteriod:inst9|off_edge'
+Slack : 0.407
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'asteriods:inst6|med_asteriod:inst8|off_edge'
+Slack : 0.409
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'asteriods:inst6|med_asteriod:inst3|off_edge'
+Slack : 0.411
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'asteriods:inst6|asteriod:inst1|off_edge'
+Slack : 0.416
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'asteriods:inst6|asteriod:inst10|off_edge'
+Slack : 0.420
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'asteriods:inst6|asteriod:inst7|off_edge'
+Slack : 0.429
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'asteriods:inst6|asteriod:inst|off_edge'
+Slack : 0.429
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'asteriods:inst6|med_asteriod:inst11|off_edge'
+Slack : 0.431
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'asteriods:inst6|asteriod:inst2|off_edge'
+Slack : 0.432
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'asteriods:inst6|med_asteriod:inst4|off_edge'
+Slack : 0.438
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Clock_50MHz'
+Slack : 9.776
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width '1|video_PLL_inst|altpll_component|pll|clk[0]'
+Slack : 19.691
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup '1|video_PLL_inst|altpll_component|pll|clk[0]'
+Slack : -17.240
+TNS   : -216.914
+
+Type  : Fast 1200mV 0C Model Setup 'VGA_SYNC:1|vert_sync_out'
+Slack : -3.267
+TNS   : -797.542
+
+Type  : Fast 1200mV 0C Model Setup 'asteriods:inst6|asteriod:inst|off_edge'
+Slack : -1.564
+TNS   : -10.953
+
+Type  : Fast 1200mV 0C Model Setup 'asteriods:inst6|asteriod:inst10|off_edge'
+Slack : -1.344
+TNS   : -8.987
+
+Type  : Fast 1200mV 0C Model Setup 'asteriods:inst6|asteriod:inst2|off_edge'
+Slack : -1.178
+TNS   : -22.116
+
+Type  : Fast 1200mV 0C Model Setup 'asteriods:inst6|med_asteriod:astro1|off_edge'
+Slack : -1.092
+TNS   : -19.385
+
+Type  : Fast 1200mV 0C Model Setup 'asteriods:inst6|med_asteriod:inst11|off_edge'
+Slack : -1.008
+TNS   : -22.178
+
+Type  : Fast 1200mV 0C Model Setup 'asteriods:inst6|med_asteriod:inst4|off_edge'
+Slack : -0.995
+TNS   : -15.028
+
+Type  : Fast 1200mV 0C Model Setup 'asteriods:inst6|med_asteriod:inst3|off_edge'
+Slack : -0.948
+TNS   : -16.153
+
+Type  : Fast 1200mV 0C Model Setup 'asteriods:inst6|asteriod:inst7|off_edge'
+Slack : -0.946
+TNS   : -13.515
+
+Type  : Fast 1200mV 0C Model Setup 'asteriods:inst6|med_asteriod:inst9|off_edge'
+Slack : -0.941
+TNS   : -12.239
+
+Type  : Fast 1200mV 0C Model Setup 'asteriods:inst6|med_asteriod:inst8|off_edge'
+Slack : -0.868
+TNS   : -15.318
+
+Type  : Fast 1200mV 0C Model Setup 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_100KHz'
+Slack : -0.823
+TNS   : -9.053
+
+Type  : Fast 1200mV 0C Model Setup 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_1KHz'
+Slack : -0.811
+TNS   : -8.921
+
+Type  : Fast 1200mV 0C Model Setup 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_10KHz'
+Slack : -0.747
+TNS   : -8.217
+
+Type  : Fast 1200mV 0C Model Setup 'asteriods:inst6|asteriod:inst1|off_edge'
+Slack : -0.584
+TNS   : -9.261
+
+Type  : Fast 1200mV 0C Model Setup 'space_ship:inst|keyboard:inst5|keyboard_clk_filtered'
+Slack : -0.540
+TNS   : -3.837
+
+Type  : Fast 1200mV 0C Model Setup 'asteriods:inst6|asteriod:inst5|off_edge'
+Slack : -0.537
+TNS   : -7.185
+
+Type  : Fast 1200mV 0C Model Setup 'game_clock:inst21|clk_div:inst3|clock_1Hz'
+Slack : -0.235
+TNS   : -1.048
+
+Type  : Fast 1200mV 0C Model Setup 'Clock_50MHz'
+Slack : -0.223
+TNS   : -0.507
+
+Type  : Fast 1200mV 0C Model Setup 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_10Khz_reg'
+Slack : 0.399
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'game_clock:inst21|clk_div:inst3|clock_100Khz_reg'
+Slack : 0.400
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_1Mhz_reg'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_100Khz_reg'
+Slack : 0.434
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'game_clock:inst21|clk_div:inst3|clock_10Khz_reg'
+Slack : 0.434
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'game_clock:inst21|clk_div:inst3|clock_10Hz_reg'
+Slack : 0.435
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'game_clock:inst21|clk_div:inst3|clock_1Khz_reg'
+Slack : 0.436
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'game_clock:inst21|clk_div:inst3|clock_100hz_reg'
+Slack : 0.437
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'game_clock:inst21|clk_div:inst3|clock_1Mhz_reg'
+Slack : 0.438
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'asteriods:inst6|asteriod:inst10|off_edge'
+Slack : -0.068
+TNS   : -0.422
+
+Type  : Fast 1200mV 0C Model Hold 'asteriods:inst6|asteriod:inst|off_edge'
+Slack : -0.031
+TNS   : -0.038
+
+Type  : Fast 1200mV 0C Model Hold 'asteriods:inst6|med_asteriod:inst4|off_edge'
+Slack : -0.012
+TNS   : -0.012
+
+Type  : Fast 1200mV 0C Model Hold 'asteriods:inst6|med_asteriod:inst9|off_edge'
+Slack : 0.021
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'VGA_SYNC:1|vert_sync_out'
+Slack : 0.022
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Clock_50MHz'
+Slack : 0.033
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'asteriods:inst6|asteriod:inst7|off_edge'
+Slack : 0.035
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'asteriods:inst6|asteriod:inst1|off_edge'
+Slack : 0.038
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'asteriods:inst6|asteriod:inst5|off_edge'
+Slack : 0.048
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'space_ship:inst|keyboard:inst5|keyboard_clk_filtered'
+Slack : 0.079
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'asteriods:inst6|med_asteriod:inst8|off_edge'
+Slack : 0.159
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'asteriods:inst6|asteriod:inst2|off_edge'
+Slack : 0.169
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold '1|video_PLL_inst|altpll_component|pll|clk[0]'
+Slack : 0.181
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'asteriods:inst6|med_asteriod:astro1|off_edge'
+Slack : 0.183
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_100Khz_reg'
+Slack : 0.201
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_10Khz_reg'
+Slack : 0.201
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_1Mhz_reg'
+Slack : 0.201
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'game_clock:inst21|clk_div:inst3|clock_100Khz_reg'
+Slack : 0.201
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'game_clock:inst21|clk_div:inst3|clock_100hz_reg'
+Slack : 0.201
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'game_clock:inst21|clk_div:inst3|clock_10Hz_reg'
+Slack : 0.201
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'game_clock:inst21|clk_div:inst3|clock_10Khz_reg'
+Slack : 0.201
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'game_clock:inst21|clk_div:inst3|clock_1Khz_reg'
+Slack : 0.201
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'game_clock:inst21|clk_div:inst3|clock_1Mhz_reg'
+Slack : 0.201
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'asteriods:inst6|med_asteriod:inst3|off_edge'
+Slack : 0.235
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'game_clock:inst21|clk_div:inst3|clock_1Hz'
+Slack : 0.291
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_10KHz'
+Slack : 0.300
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_1KHz'
+Slack : 0.301
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_100KHz'
+Slack : 0.311
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'asteriods:inst6|med_asteriod:inst11|off_edge'
+Slack : 0.401
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'VGA_SYNC:1|vert_sync_out'
+Slack : -1.468
+TNS   : -332.837
+
+Type  : Fast 1200mV 0C Model Recovery 'space_ship:inst|keyboard:inst5|ready_set'
+Slack : -1.022
+TNS   : -1.022
+
+Type  : Fast 1200mV 0C Model Recovery 'game_clock:inst21|clk_div:inst3|clock_1Hz'
+Slack : -0.396
+TNS   : -5.544
+
+Type  : Fast 1200mV 0C Model Removal 'game_clock:inst21|clk_div:inst3|clock_1Hz'
+Slack : 0.433
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'VGA_SYNC:1|vert_sync_out'
+Slack : 0.478
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'space_ship:inst|keyboard:inst5|ready_set'
+Slack : 1.732
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'VGA_SYNC:1|vert_sync_out'
+Slack : -1.000
+TNS   : -296.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'space_ship:inst|keyboard:inst5|keyboard_clk_filtered'
+Slack : -1.000
+TNS   : -23.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'game_clock:inst21|clk_div:inst3|clock_1Hz'
+Slack : -1.000
+TNS   : -14.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_100KHz'
+Slack : -1.000
+TNS   : -11.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_10KHz'
+Slack : -1.000
+TNS   : -11.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_1KHz'
+Slack : -1.000
+TNS   : -11.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_100Khz_reg'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_10Khz_reg'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'asteriods:inst6|random_astro:inst14|clk_div:inst|clock_1Mhz_reg'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'game_clock:inst21|clk_div:inst3|clock_100Khz_reg'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'game_clock:inst21|clk_div:inst3|clock_100hz_reg'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'game_clock:inst21|clk_div:inst3|clock_10Hz_reg'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'game_clock:inst21|clk_div:inst3|clock_10Khz_reg'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'game_clock:inst21|clk_div:inst3|clock_1Khz_reg'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'game_clock:inst21|clk_div:inst3|clock_1Mhz_reg'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'space_ship:inst|keyboard:inst5|ready_set'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'asteriods:inst6|med_asteriod:inst4|off_edge'
+Slack : 0.262
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'asteriods:inst6|asteriod:inst10|off_edge'
+Slack : 0.266
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'asteriods:inst6|asteriod:inst|off_edge'
+Slack : 0.267
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'asteriods:inst6|med_asteriod:inst9|off_edge'
+Slack : 0.270
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'asteriods:inst6|asteriod:inst7|off_edge'
+Slack : 0.273
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'asteriods:inst6|asteriod:inst5|off_edge'
+Slack : 0.280
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'asteriods:inst6|med_asteriod:inst3|off_edge'
+Slack : 0.290
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'asteriods:inst6|asteriod:inst1|off_edge'
+Slack : 0.291
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'asteriods:inst6|med_asteriod:astro1|off_edge'
+Slack : 0.305
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'asteriods:inst6|med_asteriod:inst8|off_edge'
+Slack : 0.328
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'asteriods:inst6|med_asteriod:inst11|off_edge'
+Slack : 0.333
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'asteriods:inst6|asteriod:inst2|off_edge'
+Slack : 0.344
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Clock_50MHz'
+Slack : 9.437
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width '1|video_PLL_inst|altpll_component|pll|clk[0]'
+Slack : 19.751
+TNS   : 0.000
+
+------------------------------------------------------------

@@ -1,0 +1,37 @@
+-- Bouncing Ball Video 
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.all;
+USE  IEEE.STD_LOGIC_ARITH.all;
+USE  IEEE.STD_LOGIC_UNSIGNED.all;
+
+ENTITY collision_detector IS
+   PORT(
+			Sx 				: IN signed(9 DOWNTO 0);
+			Sy 				: IN signed(9 DOWNTO 0);
+			Sw 				: IN signed(9 DOWNTO 0);
+			Sh 				: IN signed(9 DOWNTO 0);
+			
+			A1x 				: IN signed(9 DOWNTO 0);
+			A1y 				: IN signed(9 DOWNTO 0);
+			A1w 				: IN signed(9 DOWNTO 0);
+			A1h 				: IN signed(9 DOWNTO 0);
+			
+			hit				: OUT std_logic;
+			);
+END collision_detector;
+
+architecture behavior of collision_detector is  -- Video Display Signals
+
+BEGIN  
+
+Detect_Collision: Process (Sx, Sy, Sw, Sh, A1x, A1y, A1w, A1h)
+BEGIN
+	IF (abs(Sx - A1x) <= Sw + A1w) AND (abs(Sy - A1y) <= Sh + A1h) THEN
+		hit <= 1;
+	ELSE
+		hit <= 0;
+END IF;
+END process Detect_Collision;
+
+
+END behavior;
