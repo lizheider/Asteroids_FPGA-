@@ -9,3 +9,6 @@ To play this game you will need a Quartus DE2 development board, a PS2 keyboard,
 3. Program the DE2 board.
 4. Control of the ship is done with the arrow keys. 
 5. Enjoy!
+
+# Support
+NOTE: I can no longer provide support for this project, as I do not have access to the Altera DE2 hardware required to us it. 
